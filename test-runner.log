@@ -1,0 +1,171 @@
+2023-11-09 10:39:31 info: ----------------------------------------------
+2023-11-09 10:39:31 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-11-09 10:39:31 info: ----------------------------------------------
+2023-11-09 10:39:37 info: All unit tests passed.
+2023-11-09 10:39:44 error: *** Spell Checker Report ***
+
+d:/HYF/Assignments-cohort46/1-JavaScript/Week2/assignment/ex1-giveCompliment.js:43:19 - Unknown word (Erhan)
+
+2023-11-09 10:43:45 info: ----------------------------------------------
+2023-11-09 10:43:45 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-11-09 10:43:45 info: ----------------------------------------------
+2023-11-09 10:43:49 info: All unit tests passed.
+2023-11-09 10:43:55 error: *** Spell Checker Report ***
+
+d:/HYF/Assignments-cohort46/1-JavaScript/Week2/assignment/ex1-giveCompliment.js:43:19 - Unknown word (Erhan)
+
+2023-11-09 10:46:41 info: Disclaimer turned off
+2023-11-09 10:46:53 info: ----------------------------------------------
+2023-11-09 10:46:53 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-11-09 10:46:53 info: ----------------------------------------------
+2023-11-09 10:46:57 info: All unit tests passed.
+2023-11-09 10:47:03 info: All steps were completed successfully
+2023-11-09 10:48:05 info: ----------------------------------------
+2023-11-09 10:48:05 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-11-09 10:48:05 info: ----------------------------------------
+2023-11-09 10:48:10 info: All unit tests passed.
+2023-11-09 10:48:16 info: All steps were completed successfully
+2023-11-09 10:48:33 info: -------------------------------------------
+2023-11-09 10:48:33 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2023-11-09 10:48:33 info: -------------------------------------------
+2023-11-09 10:48:37 error: *** Unit Test Error Report ***
+
+✕ tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a carpenter in Rotterdam, married to Sarah with 1 kids.
+  Received: You will be a carpenter in Rotterdam, 
+    married to Sarah with 1 kids.
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="D:\HYF\Assignments-cohort46\test-runner\CustomReporter.js"
+2023-11-09 10:48:44 error: *** Spell Checker Report ***
+
+d:/HYF/Assignments-cohort46/1-JavaScript/Week2/assignment/ex3-tellFortune.js:52:46 - Unknown word (Saskia)
+
+2023-11-09 10:49:36 info: -------------------------------------------
+2023-11-09 10:49:36 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2023-11-09 10:49:36 info: -------------------------------------------
+2023-11-09 10:49:39 error: *** Unit Test Error Report ***
+
+✕ tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a carpenter in Rotterdam, married to Sarah with 1 kids.
+  Received: You will be a carpenter in Rotterdam, 
+    married to Sarah with 1 kids.
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="D:\HYF\Assignments-cohort46\test-runner\CustomReporter.js"
+2023-11-09 10:52:34 info: --------------------------------------------
+2023-11-09 10:52:34 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2023-11-09 10:52:34 info: --------------------------------------------
+2023-11-09 10:52:34 warn: A unit test file was not provided.
+2023-11-09 10:52:41 info: All steps were completed successfully
+2023-11-09 10:53:20 info: ------------------------------------------------
+2023-11-09 10:53:20 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2023-11-09 10:53:20 info: ------------------------------------------------
+2023-11-09 10:53:20 warn: A unit test file was not provided.
+2023-11-09 10:53:27 info: All steps were completed successfully
+2023-11-09 10:53:43 info: -----------------------------------------
+2023-11-09 10:53:43 info: >>> Running Unit Test `ex6-totalCost` <<<
+2023-11-09 10:53:43 info: -----------------------------------------
+2023-11-09 10:53:43 warn: A unit test file was not provided.
+2023-11-09 10:53:49 info: All steps were completed successfully
+2023-11-09 10:54:05 info: -------------------------------------------
+2023-11-09 10:54:05 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2023-11-09 10:54:05 info: -------------------------------------------
+2023-11-09 10:54:08 error: *** Unit Test Error Report ***
+
+✕ tellFortune should tell the fortune by randomly selecting array values
+  Expected: You will be a carpenter in Rotterdam, married to Sarah with 1 kids.
+  Received: You will be a carpenter in Rotterdam, 
+    married to Sarah with 1 kids.
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="D:\HYF\Assignments-cohort46\test-runner\CustomReporter.js"
+2023-11-09 11:01:53 info: -------------------------------------------
+2023-11-09 11:01:53 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2023-11-09 11:01:53 info: -------------------------------------------
+2023-11-09 11:01:57 error: *** Unit Test Error Report ***
+
+✕ tellFortune should call function `selectRandomly` for each of its arguments
+✕ tellFortune should tell the fortune by randomly selecting array values
+  selectRandomly() is not called the expected number of times
+
+
+Command failed: npx jest ex3-tellFortune.test.js --colors --reporters="D:\HYF\Assignments-cohort46\test-runner\CustomReporter.js"
+2023-11-09 11:02:00 error: *** ESLint Report ***
+
+ex3-tellFortune.js
+  36:10  error  'selectRandomly' is defined but never used  no-unused-vars
+
+✖ 1 problem (1 error, 0 warnings)
+
+
+2023-11-09 11:03:20 info: -------------------------------------------
+2023-11-09 11:03:20 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2023-11-09 11:03:20 info: -------------------------------------------
+2023-11-09 11:03:24 info: All unit tests passed.
+2023-11-09 11:03:30 info: All steps were completed successfully
+2023-11-09 11:04:06 info: --------------------------------------------
+2023-11-09 11:04:06 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2023-11-09 11:04:06 info: --------------------------------------------
+2023-11-09 11:04:06 warn: A unit test file was not provided.
+2023-11-09 11:04:12 info: All steps were completed successfully
+2023-11-09 11:05:36 info: ------------------------------------------------
+2023-11-09 11:05:36 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2023-11-09 11:05:36 info: ------------------------------------------------
+2023-11-09 11:05:36 warn: A unit test file was not provided.
+2023-11-09 11:05:44 info: All steps were completed successfully
+2023-11-09 11:05:57 info: -----------------------------------------
+2023-11-09 11:05:57 info: >>> Running Unit Test `ex6-totalCost` <<<
+2023-11-09 11:05:57 info: -----------------------------------------
+2023-11-09 11:05:57 warn: A unit test file was not provided.
+2023-11-09 11:06:03 info: All steps were completed successfully
+2023-11-09 11:06:16 info: -------------------------------------------
+2023-11-09 11:06:16 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2023-11-09 11:06:16 info: -------------------------------------------
+2023-11-09 11:06:16 warn: A unit test file was not provided.
+2023-11-09 11:06:23 info: All steps were completed successfully
+2023-11-11 11:44:31 info: ----------------------------------------------
+2023-11-11 11:44:31 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-11-11 11:44:31 info: ----------------------------------------------
+2023-11-11 11:44:38 info: All unit tests passed.
+2023-11-11 11:44:49 info: All steps were completed successfully
+2023-11-11 11:46:05 info: --------------------------------------------
+2023-11-11 11:46:05 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2023-11-11 11:46:05 info: --------------------------------------------
+2023-11-11 11:46:05 warn: A unit test file was not provided.
+2023-11-11 11:46:18 info: All steps were completed successfully
+2023-11-11 02:16:10 info: ----------------------------------------------
+2023-11-11 02:16:10 info: >>> Running Unit Test `ex1-giveCompliment` <<<
+2023-11-11 02:16:10 info: ----------------------------------------------
+2023-11-11 02:16:14 info: All unit tests passed.
+2023-11-11 02:16:21 info: All steps were completed successfully
+2023-11-11 02:16:57 info: ----------------------------------------
+2023-11-11 02:16:57 info: >>> Running Unit Test `ex2-dogYears` <<<
+2023-11-11 02:16:57 info: ----------------------------------------
+2023-11-11 02:17:00 info: All unit tests passed.
+2023-11-11 02:17:07 info: All steps were completed successfully
+2023-11-11 02:17:46 info: -------------------------------------------
+2023-11-11 02:17:46 info: >>> Running Unit Test `ex3-tellFortune` <<<
+2023-11-11 02:17:46 info: -------------------------------------------
+2023-11-11 02:17:50 info: All unit tests passed.
+2023-11-11 02:17:56 info: All steps were completed successfully
+2023-11-11 02:18:17 info: --------------------------------------------
+2023-11-11 02:18:17 info: >>> Running Unit Test `ex4-shoppingCart` <<<
+2023-11-11 02:18:17 info: --------------------------------------------
+2023-11-11 02:18:17 warn: A unit test file was not provided.
+2023-11-11 02:18:23 info: All steps were completed successfully
+2023-11-11 02:18:47 info: ------------------------------------------------
+2023-11-11 02:18:47 info: >>> Running Unit Test `ex5-shoppingCartPure` <<<
+2023-11-11 02:18:47 info: ------------------------------------------------
+2023-11-11 02:18:47 warn: A unit test file was not provided.
+2023-11-11 02:18:53 info: All steps were completed successfully
+2023-11-11 02:19:20 info: -----------------------------------------
+2023-11-11 02:19:20 info: >>> Running Unit Test `ex6-totalCost` <<<
+2023-11-11 02:19:20 info: -----------------------------------------
+2023-11-11 02:19:20 warn: A unit test file was not provided.
+2023-11-11 02:19:26 info: All steps were completed successfully
+2023-11-11 02:20:01 info: -------------------------------------------
+2023-11-11 02:20:01 info: >>> Running Unit Test `ex7-mindPrivacy` <<<
+2023-11-11 02:20:01 info: -------------------------------------------
+2023-11-11 02:20:01 warn: A unit test file was not provided.
+2023-11-11 02:20:07 info: All steps were completed successfully

@@ -40,9 +40,7 @@ function filterPrivateData(arrObjects) {
     return filteredData;
 
     //Shorter way
-    //  return arrObjects.map(({ gender, salary, ...rest }) => ({ ...rest }));
-
-
+    //  return arrObjects.map(({ gender, salary, ...rest }) => ({ ...rest }))
 }
 
 // ! Test functions (plain vanilla JavaScript)

@@ -29,11 +29,13 @@ const cartForParty = {
 };
 
 function calculateTotalPrice(cartForParty) {
-  let amount = 0;
-  for(let cart in cartForParty){
-    amount += cartForParty[cart];
-  }
-  return(amount);
+ const amount = Object.values(cartForParty);
+ const totalAmount = amount.reduce((acc,cur)=> {
+   return acc+=cur;
+  },0)
+
+  
+  return(totalAmount);
 }
 
 // ! Test functions (plain vanilla JavaScript)

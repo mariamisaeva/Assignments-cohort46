@@ -25,11 +25,9 @@ const shoppingCart = ['bananas', 'milk'];
 // ! Function to be tested
 function addToShoppingCart(item) {
   if (item) {
-    if (shoppingCart.length >= 3) {
+    shoppingCart.push(item);
+    if (shoppingCart.length > 3) {
       shoppingCart.shift();
-      shoppingCart.push(item);
-    } else {
-      shoppingCart.push(item);
     }
   }
   return `You bought ${shoppingCart.join(', ')}!`;

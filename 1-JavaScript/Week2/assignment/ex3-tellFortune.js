@@ -34,6 +34,27 @@ body, this code is now written once only in a separated function.
 // This function should take an array as its parameter and return
 // a randomly selected element as its return value.
 function selectRandomly(array) {
+
+  return array[Math.floor(Math.random() * array.length)];
+}
+
+function tellFortune(numKids, partnerName, location, jobTitle) {
+  const job = selectRandomly(jobTitle);
+  const city = selectRandomly(location);
+  const partner = selectRandomly(partnerName);
+  const numberOfKids = selectRandomly(numKids);
+  return `You will be a ${job} in ${city}, married to ${partner} with ${numberOfKids} kids.`;
+}
+
+function main() {
+  const numKids = [1, 2, 3, 4, 5];
+
+  const partnerNames = ['Sarah', 'Jasmine', 'Saskia', 'Marine', 'Yvonne'];
+
+  const locations = ['Rotterdam', 'Amsterdam', 'Den Hag', 'Arnhem', 'Utrecht'];
+
+  const jobTitles = ['carpenter', 'developer', 'driver', 'doctor', 'manager'];
+
   return(array[Math.floor(Math.random()*(array.length))]);
 }
 
@@ -63,9 +84,13 @@ function main() {
     'Architect','Civil engineer','Developer','Tester','Actor'
   ];
 
-  console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
-  console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
-  console.log(tellFortune(numKids, partnerNames, locations, jobTitles));
+  const fortune1 = tellFortune(numKids, partnerNames, locations, jobTitles);
+  const fortune2 = tellFortune(numKids, partnerNames, locations, jobTitles);
+  const fortune3 = tellFortune(numKids, partnerNames, locations, jobTitles);
+
+  console.log(fortune1);
+  console.log(fortune2);
+  console.log(fortune3);
 }
 
 // ! Do not change or remove the code below

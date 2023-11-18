@@ -16,6 +16,7 @@ it pure. Do the following:
 5. Confirm that you function passes the provided unit tests.
 ------------------------------------------------------------------------------*/
 // ! Function under test
+
 function addToShoppingCart(shoppingCart, item) {
   return item
     ? shoppingCart.length >= 3
@@ -23,6 +24,25 @@ function addToShoppingCart(shoppingCart, item) {
       : [...shoppingCart, item]
     : shoppingCart;
 }
+
+function addToShoppingCart(items,item) {
+
+     const newItems = [...items];
+
+    if(newItems.length > 2) {
+      newItems.shift();
+      newItems.push(item);
+    }else{
+
+    newItems.push(item);
+  }
+
+   
+   
+    return(newItems);
+   
+  }
+
 
 // ! Test functions (plain vanilla JavaScript)
 function test1() {

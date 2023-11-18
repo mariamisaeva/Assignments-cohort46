@@ -41,6 +41,20 @@ function giveCompliment(name) {
 
 function main() {
   const myName = 'Erhan';
+=======
+function giveCompliment(name) {
+  const compliments = ['great','awesome','fantastic','wonderful','cool',
+'cheerful','grateful','beautiful','gorgeous','thoughtful'];
+ const compliment = compliments[Math.floor(Math.random()* (compliments.length))];
+
+return (`You are ${compliment}, ${name}!`);
+
+}
+
+function main() {
+  // TODO substitute your own name for "HackYourFuture"
+  const myName = 'Ahmad';
+
 
   console.log(giveCompliment(myName));
   console.log(giveCompliment(myName));

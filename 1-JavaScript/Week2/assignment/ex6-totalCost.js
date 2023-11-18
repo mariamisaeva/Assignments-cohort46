@@ -31,6 +31,22 @@ const cartForParty = {
 function calculateTotalPrice(obj) {
   const totalPrice = Object.values(obj).reduce((acc, curr) => acc + curr, 0);
   return `Total: €${totalPrice.toFixed(2)}`;
+
+  beers: 1.99,
+  chips: 1.99,
+  cake: 1.50,
+  redBull: 1.99,
+  nuts: 0.99
+};
+
+function calculateTotalPrice(cartForParty) {
+ const amount = Object.values(cartForParty);
+ const totalAmount = amount.reduce((acc,cur)=> {
+   return acc+=cur;
+  },0)
+
+  
+  return(totalAmount);
 }
 // ! Test functions (plain vanilla JavaScript)
 function test1() {
@@ -38,6 +54,9 @@ function test1() {
   const expected = 1;
   const actual = calculateTotalPrice.length;
   console.assert(actual === expected);
+
+  console.assert(calculateTotalPrice.length === 1);
+
 }
 
 function test2() {
@@ -45,6 +64,9 @@ function test2() {
   const expected = 'Total: €28.79';
   const actual = calculateTotalPrice(cartForParty);
   console.assert(actual === expected);
+
+  console.assert(JSON.stringify(calculateTotalPrice(cartForParty)) === '8.46');
+
 }
 
 function test() {

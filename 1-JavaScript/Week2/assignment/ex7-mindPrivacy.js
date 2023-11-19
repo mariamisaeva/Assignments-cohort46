@@ -33,14 +33,15 @@ const employeeRecords = [
 function filterPrivateData(arrObjects) {
 
     const filteredData = arrObjects.map((employee) => {
-        const { gender, salary, ...rest } = employee; //exclude and return the rest
-        return rest;
+        const { name, occupation, email } = employee;
+        return { name, occupation, email };
     });
 
     return filteredData;
 
     //Shorter way
-    //  return arrObjects.map(({ gender, salary, ...rest }) => ({ ...rest }))
+    //  return arrObjects.map(({  name, occupation, email }) => ({ name, occupation, email  }))
+
 }
 
 // ! Test functions (plain vanilla JavaScript)

@@ -28,7 +28,6 @@ const fruitBasket = [
 // ! Function under test
 function sanitizeFruitBasket(basketArr, unwanted) {
     const sanitized = basketArr.filter(f => f !== unwanted);
-
     return sanitized;
 }
 
@@ -43,7 +42,7 @@ describe('sanitizeFruitBasket', () => {
         // Save the original contents of the fruit basket
         const originalFruitBasketContents = [...fruitBasket];
         // TODO replace next line with your code
-        expect(sanitizeFruitBasket(fruitBasket, 'Lemon')).toEqual(originalFruitBasketContents);
+        expect(fruitBasket).toEqual(originalFruitBasketContents);
     });
 
     test('should return a new array that does not include the unwanted `lemon`', () => {

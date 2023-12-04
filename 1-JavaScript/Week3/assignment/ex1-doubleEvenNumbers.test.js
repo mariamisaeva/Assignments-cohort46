@@ -14,14 +14,6 @@ function doubleEvenNumbers(numbers) {
     // TODO rewrite the function body using `map` and `filter`.
     const newNumbers = numbers.filter(n => n % 2 === 0).map(num => num * 2);
     return newNumbers;
-    /*
-   const newNumbers = [];
-   for (let i = 0; i < numbers.length; i++) {
-     if (numbers[i] % 2 === 0) {
-       newNumbers.push(numbers[i] * 2);
-     }
-   }
-   return newNumbers;*/
 }
 
 // ! Unit test (using Jest)

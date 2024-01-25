@@ -45,3 +45,8 @@ if (process.env.NODE_ENV !== 'test') {
     main();
 }
 module.exports = rollDice;
+
+/**
+* When the promise is rejected, it doesn't stop the ongoing asynchronous tasks, 
+* so the other dice continue rolling until each of them complete their own tasks.
+*/

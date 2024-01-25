@@ -60,3 +60,9 @@ if (process.env.NODE_ENV !== 'test') {
     main();
 }
 module.exports = rollDie;
+
+/**
+ * The problem described should no longer occur after the refactoring. 
+ * Because promises are more readable and 
+ * better structured to handle asynchronous code. 
+ */

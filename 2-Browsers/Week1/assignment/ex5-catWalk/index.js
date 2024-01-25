@@ -22,37 +22,7 @@ Full description at: https://github.com/HackYourFuture/Assignments/tree/main/2-B
    https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif
 -----------------------------------------------------------------------------*/
 function catWalk() {
-    const img = document.querySelector('img');
-    img.style.left = '0px';
-
-    // console.log(img.style.left);
-    const originalSrc = img.src;
-    const dancingSrc = ' https://media1.tenor.com/images/2de63e950fb254920054f9bd081e8157/tenor.gif';
-
-    let isDancing = false;
-
-    let position = 0;
-    setInterval(moveFunc, 50);
-
-
-    function moveFunc() {
-        if (isDancing) return;
-
-        (position >= window.innerWidth) ? position = 0 : position += 10;
-
-        if (position === (window.innerWidth / 3)) { //Problem: didn't get executed in the exact middle
-            //with (window.innerWidth / 2)
-            //so I made this adjustment ( /3 ) !!
-            img.src = dancingSrc;
-            isDancing = true;
-            setTimeout(() => {
-                img.src = originalSrc;
-                isDancing = false
-            }, 5000);
-        }
-
-        img.style.left = position + 'px';
-    }
-
+  // TODO complete this function
 }
-window.addEventListener('load', catWalk);
+
+// TODO execute `catWalk` when the browser has completed loading the page

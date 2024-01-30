@@ -1,10 +1,6 @@
-//npm init -y
-//npm i express
-//npm i express-handlebars
-//npm i node-fetch
-//add "type": "module" to package.json (to use import)
-
+//const express = require('express');
 import express from 'express';
+
 const app = express();
 const PORT = process.env.PORT || 3000;
 
